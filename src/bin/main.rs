@@ -8,6 +8,7 @@ fn main() -> io::Result<()> {
     match day.parse::<i32>().unwrap() {
         1 => day1::run()?,
         4 => day4::run()?,
+        8 => day8::run()?,
         // Day invocations
         _ => {}
     };
